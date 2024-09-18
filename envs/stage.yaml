@@ -59,7 +59,7 @@ ingress:
   tls: 
    - secretName: stage-artemis-tls
      hosts:
-       - dev-artemis.eltegin.com
+       - stage-artemis.eltegin.com
 
 
 
