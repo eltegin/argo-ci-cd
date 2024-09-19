@@ -54,7 +54,7 @@ ingress:
   hosts:
     - host: artemis.eltegin.com
       paths:
-- path: /
+        - path: /
           pathType: ImplementationSpecific
   tls: 
    - secretName: artemis-tls
